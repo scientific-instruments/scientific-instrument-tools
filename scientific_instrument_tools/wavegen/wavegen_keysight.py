@@ -3,6 +3,8 @@
 from ..core import ResourceItem
 from .wavegen import WaveformGenerator
 
+from typing import Union
+
 class WaveformGeneratorKeysight(WaveformGenerator):
     """Generic class for Keysight Waveform Generators."""
 

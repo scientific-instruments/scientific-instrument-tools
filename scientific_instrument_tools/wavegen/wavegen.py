@@ -2,6 +2,8 @@
 
 from ..core import ScientificInstrument, ResourceItem
 
+from typing import Union
+
 class WaveformGenerator(ScientificInstrument):
     """Generic class for Waveform Generators."""
 
