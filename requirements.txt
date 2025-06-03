@@ -1,0 +1,5 @@
+pyvisa>=1.14.0
+pyvisa-py>=0.8.0
+zeroconf
+pyusb
+psutil
