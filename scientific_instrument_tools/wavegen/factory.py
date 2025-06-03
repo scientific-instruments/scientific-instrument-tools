@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from ..core import ResourceItem
-from .wavegen import WaveformGenerator, WaveformGeneratorKeysight
-
+from .wavegen import WaveformGenerator
+from .wavegen_keysight import WaveformGeneratorKeysight
 
 class WaveformGeneratorFactory:
     """Factory for ScientificInstrument and derivatives"""
