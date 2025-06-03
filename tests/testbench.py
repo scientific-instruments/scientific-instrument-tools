@@ -42,6 +42,17 @@ wavegen.set_width(200e-6)
 wavegen.set_output(True)
 sleep(2)
 
+# Burst mode
+wavegen.set_output(False)
+wavegen.set_function("sin")
+wavegen.set_period(10e-6)
+wavegen.set_voltage(1)
+wavegen.set_burst(True)
+wavegen.set_burst_ncycles(1)
+wavegen.set_burst_period(1)
+wavegen.set_burst(False)
+wavegen.set_trig_ext(True)
+
 wavegen.disconnect()
 
 sit.ResourceManager.close()
