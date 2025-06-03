@@ -3,7 +3,7 @@
 from ..core import ResourceItem
 from .scope import Oscilloscope
 
-class OscilloscopeRhodeSchwartz(Oscilloscope):
+class OscilloscopeRohdeSchwarz(Oscilloscope):
     """Generic class for Rhode & Schwartz Oscilloscopes."""
 
     def __init__(self, resource: ResourceItem):
